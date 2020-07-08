@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1266CF2724B5895E00196E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266CF2624B5895E00196E52 /* AppDelegate.swift */; };
+		1266CF2924B5895E00196E52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266CF2824B5895E00196E52 /* SceneDelegate.swift */; };
+		1266CF2E24B5895E00196E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1266CF2C24B5895E00196E52 /* Main.storyboard */; };
+		1266CF3024B5896100196E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1266CF2F24B5896100196E52 /* Assets.xcassets */; };
+		1266CF3324B5896100196E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1266CF3124B5896100196E52 /* LaunchScreen.storyboard */; };
+		1266CF3E24B5896200196E52 /* Xena_WorkwearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266CF3D24B5896200196E52 /* Xena_WorkwearTests.swift */; };
+		1266CF4924B5896200196E52 /* Xena_WorkwearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266CF4824B5896200196E52 /* Xena_WorkwearUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1266CF3A24B5896200196E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1266CF1B24B5895E00196E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1266CF2224B5895E00196E52;
+			remoteInfo = "Xena Workwear";
+		};
+		1266CF4524B5896200196E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1266CF1B24B5895E00196E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1266CF2224B5895E00196E52;
+			remoteInfo = "Xena Workwear";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1266CF2324B5895E00196E52 /* Xena Workwear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xena Workwear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1266CF2624B5895E00196E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1266CF2824B5895E00196E52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1266CF2D24B5895E00196E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1266CF2F24B5896100196E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1266CF3224B5896100196E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1266CF3424B5896100196E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1266CF3924B5896200196E52 /* Xena WorkwearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xena WorkwearTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1266CF3D24B5896200196E52 /* Xena_WorkwearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xena_WorkwearTests.swift; sourceTree = "<group>"; };
+		1266CF3F24B5896200196E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1266CF4424B5896200196E52 /* Xena WorkwearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xena WorkwearUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1266CF4824B5896200196E52 /* Xena_WorkwearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xena_WorkwearUITests.swift; sourceTree = "<group>"; };
+		1266CF4A24B5896200196E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1266CF2024B5895E00196E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266CF3624B5896200196E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266CF4124B5896200196E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1266CF1A24B5895E00196E52 = {
+			isa = PBXGroup;
+			children = (
+				1266CF2524B5895E00196E52 /* Xena Workwear */,
+				1266CF3C24B5896200196E52 /* Xena WorkwearTests */,
+				1266CF4724B5896200196E52 /* Xena WorkwearUITests */,
+				1266CF2424B5895E00196E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1266CF2424B5895E00196E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1266CF2324B5895E00196E52 /* Xena Workwear.app */,
+				1266CF3924B5896200196E52 /* Xena WorkwearTests.xctest */,
+				1266CF4424B5896200196E52 /* Xena WorkwearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1266CF2524B5895E00196E52 /* Xena Workwear */ = {
+			isa = PBXGroup;
+			children = (
+				1266CF5924B5898100196E52 /* Model */,
+				1266CF5824B5897E00196E52 /* View */,
+				1266CF5724B5897C00196E52 /* Controller */,
+				1266CF5624B5897900196E52 /* Resources */,
+			);
+			path = "Xena Workwear";
+			sourceTree = "<group>";
+		};
+		1266CF3C24B5896200196E52 /* Xena WorkwearTests */ = {
+			isa = PBXGroup;
+			children = (
+				1266CF3D24B5896200196E52 /* Xena_WorkwearTests.swift */,
+				1266CF3F24B5896200196E52 /* Info.plist */,
+			);
+			path = "Xena WorkwearTests";
+			sourceTree = "<group>";
+		};
+		1266CF4724B5896200196E52 /* Xena WorkwearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1266CF4824B5896200196E52 /* Xena_WorkwearUITests.swift */,
+				1266CF4A24B5896200196E52 /* Info.plist */,
+			);
+			path = "Xena WorkwearUITests";
+			sourceTree = "<group>";
+		};
+		1266CF5624B5897900196E52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1266CF2624B5895E00196E52 /* AppDelegate.swift */,
+				1266CF2824B5895E00196E52 /* SceneDelegate.swift */,
+				1266CF2F24B5896100196E52 /* Assets.xcassets */,
+				1266CF3424B5896100196E52 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1266CF5724B5897C00196E52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1266CF5824B5897E00196E52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1266CF5A24B589A700196E52 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1266CF5924B5898100196E52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1266CF5A24B589A700196E52 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1266CF5C24B589BE00196E52 /* Launch */,
+				1266CF5B24B589B000196E52 /* Opening */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1266CF5B24B589B000196E52 /* Opening */ = {
+			isa = PBXGroup;
+			children = (
+				1266CF2C24B5895E00196E52 /* Main.storyboard */,
+			);
+			path = Opening;
+			sourceTree = "<group>";
+		};
+		1266CF5C24B589BE00196E52 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				1266CF3124B5896100196E52 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1266CF2224B5895E00196E52 /* Xena Workwear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1266CF4D24B5896200196E52 /* Build configuration list for PBXNativeTarget "Xena Workwear" */;
+			buildPhases = (
+				1266CF1F24B5895E00196E52 /* Sources */,
+				1266CF2024B5895E00196E52 /* Frameworks */,
+				1266CF2124B5895E00196E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xena Workwear";
+			productName = "Xena Workwear";
+			productReference = 1266CF2324B5895E00196E52 /* Xena Workwear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1266CF3824B5896200196E52 /* Xena WorkwearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1266CF5024B5896200196E52 /* Build configuration list for PBXNativeTarget "Xena WorkwearTests" */;
+			buildPhases = (
+				1266CF3524B5896200196E52 /* Sources */,
+				1266CF3624B5896200196E52 /* Frameworks */,
+				1266CF3724B5896200196E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1266CF3B24B5896200196E52 /* PBXTargetDependency */,
+			);
+			name = "Xena WorkwearTests";
+			productName = "Xena WorkwearTests";
+			productReference = 1266CF3924B5896200196E52 /* Xena WorkwearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1266CF4324B5896200196E52 /* Xena WorkwearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1266CF5324B5896200196E52 /* Build configuration list for PBXNativeTarget "Xena WorkwearUITests" */;
+			buildPhases = (
+				1266CF4024B5896200196E52 /* Sources */,
+				1266CF4124B5896200196E52 /* Frameworks */,
+				1266CF4224B5896200196E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1266CF4624B5896200196E52 /* PBXTargetDependency */,
+			);
+			name = "Xena WorkwearUITests";
+			productName = "Xena WorkwearUITests";
+			productReference = 1266CF4424B5896200196E52 /* Xena WorkwearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1266CF1B24B5895E00196E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Xena;
+				TargetAttributes = {
+					1266CF2224B5895E00196E52 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1266CF3824B5896200196E52 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1266CF2224B5895E00196E52;
+					};
+					1266CF4324B5896200196E52 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1266CF2224B5895E00196E52;
+					};
+				};
+			};
+			buildConfigurationList = 1266CF1E24B5895E00196E52 /* Build configuration list for PBXProject "Xena Workwear" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1266CF1A24B5895E00196E52;
+			productRefGroup = 1266CF2424B5895E00196E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1266CF2224B5895E00196E52 /* Xena Workwear */,
+				1266CF3824B5896200196E52 /* Xena WorkwearTests */,
+				1266CF4324B5896200196E52 /* Xena WorkwearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1266CF2124B5895E00196E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266CF3324B5896100196E52 /* LaunchScreen.storyboard in Resources */,
+				1266CF3024B5896100196E52 /* Assets.xcassets in Resources */,
+				1266CF2E24B5895E00196E52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266CF3724B5896200196E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266CF4224B5896200196E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1266CF1F24B5895E00196E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266CF2724B5895E00196E52 /* AppDelegate.swift in Sources */,
+				1266CF2924B5895E00196E52 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266CF3524B5896200196E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266CF3E24B5896200196E52 /* Xena_WorkwearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266CF4024B5896200196E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266CF4924B5896200196E52 /* Xena_WorkwearUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1266CF3B24B5896200196E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1266CF2224B5895E00196E52 /* Xena Workwear */;
+			targetProxy = 1266CF3A24B5896200196E52 /* PBXContainerItemProxy */;
+		};
+		1266CF4624B5896200196E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1266CF2224B5895E00196E52 /* Xena Workwear */;
+			targetProxy = 1266CF4524B5896200196E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1266CF2C24B5895E00196E52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1266CF2D24B5895E00196E52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1266CF3124B5896100196E52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1266CF3224B5896100196E52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1266CF4B24B5896200196E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1266CF4C24B5896200196E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1266CF4E24B5896200196E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6R6MQNLHPL;
+				INFOPLIST_FILE = "/Users/lambda_school_loaner_226/Desktop/Projects/XenaWorkwear/Xena-Workwear-iOS/Xena Workwear/Xena Workwear/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xena.Xena-Workwear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1266CF4F24B5896200196E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6R6MQNLHPL;
+				INFOPLIST_FILE = "/Users/lambda_school_loaner_226/Desktop/Projects/XenaWorkwear/Xena-Workwear-iOS/Xena Workwear/Xena Workwear/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xena.Xena-Workwear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1266CF5124B5896200196E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6R6MQNLHPL;
+				INFOPLIST_FILE = "Xena WorkwearTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xena.Xena-WorkwearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xena Workwear.app/Xena Workwear";
+			};
+			name = Debug;
+		};
+		1266CF5224B5896200196E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6R6MQNLHPL;
+				INFOPLIST_FILE = "Xena WorkwearTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xena.Xena-WorkwearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xena Workwear.app/Xena Workwear";
+			};
+			name = Release;
+		};
+		1266CF5424B5896200196E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6R6MQNLHPL;
+				INFOPLIST_FILE = "Xena WorkwearUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xena.Xena-WorkwearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Xena Workwear";
+			};
+			name = Debug;
+		};
+		1266CF5524B5896200196E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6R6MQNLHPL;
+				INFOPLIST_FILE = "Xena WorkwearUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xena.Xena-WorkwearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Xena Workwear";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1266CF1E24B5895E00196E52 /* Build configuration list for PBXProject "Xena Workwear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1266CF4B24B5896200196E52 /* Debug */,
+				1266CF4C24B5896200196E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1266CF4D24B5896200196E52 /* Build configuration list for PBXNativeTarget "Xena Workwear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1266CF4E24B5896200196E52 /* Debug */,
+				1266CF4F24B5896200196E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1266CF5024B5896200196E52 /* Build configuration list for PBXNativeTarget "Xena WorkwearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1266CF5124B5896200196E52 /* Debug */,
+				1266CF5224B5896200196E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1266CF5324B5896200196E52 /* Build configuration list for PBXNativeTarget "Xena WorkwearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1266CF5424B5896200196E52 /* Debug */,
+				1266CF5524B5896200196E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1266CF1B24B5895E00196E52 /* Project object */;
+}
